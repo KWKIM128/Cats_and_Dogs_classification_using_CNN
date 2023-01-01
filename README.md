@@ -1,5 +1,5 @@
 # Cats_and_Dogs_classification_using_CNN
-Image classification task using simple CNN architecture. The model has 87.76% accuracy.
+Image classification task using simple CNN architecture. The model has 92.04% accuracy.
 Dataset downloaded from Kaggle (https://www.kaggle.com/datasets/ashfakyeafi/cat-dog-images-for-classification)
 
 ## Average Loss Value Per Epoch
@@ -34,7 +34,7 @@ epoch: 14 / 15, avgerage loss = 0.3243
 epoch: 15 / 15, avgerage loss = 0.3116
 
 ## Mdoel Architecture
-Hyperparameters: number of epochs: 15 | batch size: 20 | learning rate: 0.001
+Hyperparameters: number of epochs: 40 | batch size: 20 | learning rate: 0.001
 
 ### Layer (type:depth-idx)        |          Output Shape          |    Param 
 
