@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Date: 1st January, 2023
 
