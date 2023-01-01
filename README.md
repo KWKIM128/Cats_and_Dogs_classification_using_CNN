@@ -3,6 +3,27 @@ Image classification task using simple CNN architecture.
 Dataset downloaded from Kaggle (https://www.kaggle.com/datasets/ashfakyeafi/cat-dog-images-for-classification)
 
 ## Average Loss Value Per Epoch
+epoch: 1 / 15, avgerage loss = 0.7462
+
+epoch: 2 / 15, avgerage loss = 0.6813
+
+epoch: 3 / 15, avgerage loss = 0.6485
+
+epoch: 4 / 15, avgerage loss = 0.6214
+
+epoch: 5 / 15, avgerage loss = 0.5784
+
+epoch: 6 / 15, avgerage loss = 0.5219
+
+epoch: 7 / 15, avgerage loss = 0.4895
+
+epoch: 8 / 15, avgerage loss = 0.4472
+
+epoch: 9 / 15, avgerage loss = 0.4129
+
+epoch: 10 / 15, avgerage loss = 0.3940
+
+epoch: 11 / 15, avgerage loss = 0.3683
 
 ## Mdoel Architecture
 Hyperparameters: number of epochs: 15 | batch size: 20 | learning rate: 0.001
