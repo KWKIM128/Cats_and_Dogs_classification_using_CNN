@@ -7,7 +7,7 @@ Dataset downloaded from Kaggle (https://www.kaggle.com/datasets/ashfakyeafi/cat-
 ## Mdoel Architecture
 Hyperparameters: number of epochs: 10 | batch size: 20 | learning rate: 0.001
 
-###Layer (type:depth-idx)        |          Output Shape          |    Param 
+### Layer (type:depth-idx)        |          Output Shape          |    Param 
 
 ├─Sequential: 1-1             |          [-1, 64, 110, 110]    |    --
 
