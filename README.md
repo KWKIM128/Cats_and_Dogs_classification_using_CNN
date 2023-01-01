@@ -8,7 +8,7 @@ Dataset downloaded from Kaggle (https://www.kaggle.com/datasets/ashfakyeafi/cat-
 Hyperparameters: number of epochs: 10 | batch size: 20 | learning rate: 0.001
 
 Layer (type:depth-idx)                   Output Shape              Param 
-==========================================================================================
+
 ├─Sequential: 1-1                        [-1, 64, 110, 110]        --
 
 |    └─Conv2d: 2-1                       [-1, 64, 222, 222]        1,792
