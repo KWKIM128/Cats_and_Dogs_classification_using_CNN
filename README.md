@@ -5,7 +5,7 @@ Dataset downloaded from Kaggle (https://www.kaggle.com/datasets/ashfakyeafi/cat-
 ## Average Loss Value Per Epoch
 
 ## Mdoel Architecture
-Hyperparameters: number of epochs: 40 | batch size: 20 | learning rate: 0.001
+Hyperparameters: number of epochs: 15 | batch size: 20 | learning rate: 0.001
 
 ### Layer (type:depth-idx)        |          Output Shape          |    Param 
 
