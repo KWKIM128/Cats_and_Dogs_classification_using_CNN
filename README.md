@@ -7,17 +7,17 @@ Dataset downloaded from Kaggle (https://www.kaggle.com/datasets/ashfakyeafi/cat-
 ## Mdoel Architecture
 Hyperparameters: number of epochs: 10 | batch size: 20 | learning rate: 0.001
 
-Layer (type:depth-idx)           |        Output Shape  |            Param 
+Layer (type:depth-idx)                   Output Shape              Param 
 ==========================================================================================
-├─Sequential: 1-1                  |      [-1, 64, 110, 110]   |     --
+├─Sequential: 1-1                        [-1, 64, 110, 110]        --
 
-|    └─Conv2d: 2-1                  |     [-1, 64, 222, 222]     |   1,792
+|    └─Conv2d: 2-1                       [-1, 64, 222, 222]        1,792
 
-|    └─ReLU: 2-2               |          [-1, 64, 222, 222]     |   --
+|    └─ReLU: 2-2                         [-1, 64, 222, 222]        --
 
-|    └─Conv2d: 2-3                 |      [-1, 64, 220, 220]     |   36,928
+|    └─Conv2d: 2-3                       [-1, 64, 220, 220]        36,928
 
-|    └─ReLU: 2-4             |            [-1, 64, 220, 220]    |    --
+|    └─ReLU: 2-4                         [-1, 64, 220, 220]        --
 
 |    └─MaxPool2d: 2-5                    [-1, 64, 110, 110]        --
 
@@ -69,6 +69,7 @@ Non-trainable params: 0
 
 Total mult-adds (G): 2.36
 
+-----------------------------------------------------------------------------
 
 Input size (MB): 0.57
 
