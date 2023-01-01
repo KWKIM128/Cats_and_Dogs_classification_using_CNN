@@ -1,5 +1,6 @@
 # Cats_and_Dogs_classification_using_CNN
-Image classification task using simple CNN architecture. The model has 92.04% accuracy.
+Image classification task using simple CNN architecture. The model has 92.04% accuracy. 
+
 Dataset downloaded from Kaggle (https://www.kaggle.com/datasets/ashfakyeafi/cat-dog-images-for-classification)
 
 ## Training Loss Value
