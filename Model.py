@@ -132,6 +132,7 @@ class ConvNet(nn.Module):
         out =out.view(out.size(0),-1)
         out =self.relu(self.fc1(out))
         out =self.relu(self.fc2(out))
+        out = self.fc3(out)
         return out
     
 def weights_init_uniform_rule(m):
