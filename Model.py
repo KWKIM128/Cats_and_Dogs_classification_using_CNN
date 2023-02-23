@@ -91,6 +91,7 @@ class ConvNet(nn.Module):
         
         self.layer2 = nn.Sequential(
             nn.Conv2d(64,64,kernel_size=3,padding=0,stride=1),
+            nn.ReLu(),
             nn.MaxPool2d(2, stride=2)
         
         )
